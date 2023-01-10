@@ -1,0 +1,320 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.body {
+
+    /* max-width: 1440px;
+   
+    margin-left: auto;
+    margin-right: auto; */
+
+}
+
+
+
+
+.navigation-menu {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 81px;
+    padding-right: 129px;
+
+}
+
+.main-logo {
+
+    display: block;
+    align-self: center;
+
+}
+
+.menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    gap: 23px;
+    padding-left: 0;
+
+
+}
+
+.menu-item {
+
+    text-decoration: none;
+    color: black;
+    font-family: Circular Std;
+}
+
+.menu-item-blue {
+    display: flex;
+    flex-wrap: nowrap;
+
+    text-decoration: none;
+    color: #2F70FE;
+    font-family: Circular Std;
+    font-weight: 700;
+    border: 2px solid #2F70FE;
+    padding: 15px;
+}
+
+.person {
+    display: inline-block;
+
+}
+
+
+.main-header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2F70FE;
+    color: white;
+
+    padding: 100px 0px 200px;
+    text-align: center;
+    row-gap: 10px;
+    position: relative;
+}
+
+.follow {
+
+    text-decoration: none;
+    color: white;
+}
+
+.main-title {
+
+    width: 358px;
+}
+
+.description {
+
+    width: 358px;
+}
+
+.button-register {
+
+    width: 100px;
+}
+
+.img {
+
+    overflow: hidden;
+}
+
+.imgleft {
+
+    display: block;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    position: absolute;
+    right: 60%;
+    top: 50%;
+    opacity: 0.8;
+    overflow: hidden;
+
+}
+
+.imgright {
+
+
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+
+.main-title h1 {
+    font-family: Circular Std;
+    margin: 0%;
+}
+
+
+.text-description {
+
+    font-family: Circular Std;
+    font-size: 10px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.button-register {
+
+    display: block;
+    font-family: Circular Std;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 12px 20px;
+
+}
+
+
+.second-header {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-title {
+
+    display: block;
+    background-color: white;
+    font-family: Circular Std;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.list {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px 100px;
+
+}
+
+.list p {
+
+    text-align: center;
+    font-family: Circular Std;
+    font-size: 15px;
+}
+
+.list :nth-child(1) {
+
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.list :nth-child(2) {
+
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+.list :nth-child(3) {
+
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
+
+.list :nth-child(4) {
+
+    grid-column: 3 / 4;
+    grid-row: 2;
+}
+
+.list :nth-child(5) {
+
+    grid-column: 4 / 5;
+    grid-row: 1;
+}
+
+.list :nth-child(6) {
+
+    grid-column: 4 / 5;
+    grid-row: 2;
+}
+
+.second-list {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    justify-items: center;
+    gap: 30px 30px;
+    padding: 50px 70px;
+}
+
+.item {
+
+    padding: 100px;
+    font-family: Circular Std;
+}
+
+.list-title {
+
+    font-size: 30px;
+}
+
+.item-rightarrow {
+    text-decoration: none;
+    color: #2F70FE;
+    position: relative;
+    margin-top: 10px;
+}
+
+.rightarrow {
+
+    display: inline-block;
+    position: absolute;
+    bottom: -2px;
+    right: -30px;
+}
+
+
+.footer-main {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding: 50px 70px 0px;
+
+
+}
+
+.footer-title {
+
+    padding-bottom: 20px;
+    font-family: Circular Std;
+}
+
+.footer-list {
+
+    list-style: none;
+    font-family: Circular Std;
+    padding-left: 0;
+    font-size: 12px;
+
+}
+
+.bottom-footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0px 400px 18px 160px;
+    font-family: Circular Std;
+    font-size: 10px;
+
+}
+
+
+@media screen and (max-width: 799px) {}
+
+@media screen and (max-width: 499px) {}
+
+@media screen and (max-width: 299px) {}
